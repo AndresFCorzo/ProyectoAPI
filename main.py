@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 app = FastAPI()
 
 # Carga los datos parquet en un dataframe de pandas
-Tabla_API = pd.read_parquet('Merge\\Tabla_API.parquet')
+Tabla_API = pd.read_parquet('Merge/Tabla_API.parquet')
 
 
 @app.get('/PlayTimeGenre')
@@ -93,8 +93,8 @@ def sentiment_analysis(developer: str):
 
 def recomendacion_juego(item_id):
     #Cargar datos para utilizar en dos Dataframes distintos
-    df = pd.read_csv('DatasetsLimpios\\games_steam.csv')
-    df1 = pd.read_csv('DatasetsLimpios\\games_id.csv')
+    df = pd.read_csv('DatasetsLimpios/games_steam.csv')
+    df1 = pd.read_csv('DatasetsLimpios/games_id.csv')
 
     #Crear una matriz de juegos
     tfidv = TfidfVectorizer(min_df=2, max_df=0.7, token_pattern=r'\b[a-zA-Z0-9]\w+\b')
