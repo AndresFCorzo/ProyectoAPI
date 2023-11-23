@@ -12,6 +12,7 @@ app = FastAPI()
 Tabla_API = pd.read_parquet('Merge/Tabla_API.parquet')
 
 
+
 @app.get('/PlayTimeGenre')
 def PlayTimeGenre(genero: str):
     #Filtrar el DataFrame por el genero especificado
@@ -90,7 +91,7 @@ def sentiment_analysis(developer: str):
     #Crear un diccionario con los resultados
     return [{developer: {'Negative': sentiment_counts.get(0, 0), 'Neutral': sentiment_counts.get(1, 0), 'Positive': sentiment_counts.get(2, 0)}}]
 
-
+@app.get('/recomendacion_juego')
 def recomendacion_juego(item_id):
     #Cargar datos para utilizar en dos Dataframes distintos
     df = pd.read_csv('DatasetsLimpios/games_steam.csv')
