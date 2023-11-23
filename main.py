@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 app = FastAPI()
 
 # Carga los datos parquet en un dataframe de pandas
-Tabla_API = pd.read_parquet('Tabla_API.parquet')
+Tabla_API = pd.read_parquet('Merge\\Tabla_API.parquet')
 
 
 @app.get('/PlayTimeGenre')
