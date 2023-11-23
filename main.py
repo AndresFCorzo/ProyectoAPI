@@ -92,7 +92,7 @@ def sentiment_analysis(developer: str):
     return [{developer: {'Negative': sentiment_counts.get(0, 0), 'Neutral': sentiment_counts.get(1, 0), 'Positive': sentiment_counts.get(2, 0)}}]
 
 @app.get('/recomendacion_juego')
-def recomendacion_juego(item_id):
+def recomendacion_juego(item_id: int):
     #Cargar datos para utilizar en dos Dataframes distintos
     df = pd.read_csv('DatasetsLimpios/games_steam.csv')
     df1 = pd.read_csv('DatasetsLimpios/games_id.csv')
