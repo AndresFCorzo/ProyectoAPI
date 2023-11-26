@@ -9,7 +9,7 @@ Este proyecto se enfocó en resolver un desafío de Steam: crear un sistema de r
 Enlaces útiles:
 - Repositorio en GitHub: [AndresFCorzo/ProyectoAPI](https://github.com/AndresFCorzo/ProyectoAPI)
 - Despliegue: [deploy-dsuarez-mlops.onrender.com/docs](https://proyectoapi-zrul.onrender.com/docs)
-- Video explicativo: [youtu.be/ZFEUi9e2Pzs](https://youtu.be/ZFEUi9e2Pzs)
+- Video explicativo: 
 
 El objetivo principal fue crear una API utilizando FastAPI para acceder a datos de manera específica y garantizar su calidad después de un proceso exhaustivo de ETL.
 
