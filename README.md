@@ -1,5 +1,3 @@
-# ProyectoAPI
-
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº1**
 # <h1 align=center> **Andres Felipe Corzo**
 ### <h1 align=center> `Machine Learning Operations` (MLOps)
@@ -9,7 +7,7 @@ Este proyecto se enfocó en resolver un desafío de Steam: crear un sistema de r
 Enlaces útiles:
 - Repositorio en GitHub: [AndresFCorzo/ProyectoAPI](https://github.com/AndresFCorzo/ProyectoAPI)
 - Despliegue: [proyectoapi-zrul.onrender/docs](https://proyectoapi-zrul.onrender.com/docs)
-- Video explicativo: 
+- Video explicativo: [https://drive.google.com/file/d/1PO4YrjbhXscO8om6JrBkhyhncGX1G2z3/view?usp=sharing](https://drive.google.com/file/d/1PO4YrjbhXscO8om6JrBkhyhncGX1G2z3/view?usp=sharing)
 
 El objetivo principal fue crear una API utilizando FastAPI para acceder a datos de manera específica y garantizar su calidad después de un proceso exhaustivo de ETL.
 
